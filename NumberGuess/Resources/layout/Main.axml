@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="33.5dp"
+        android:id="@+id/textView1"
+        android:hint="Enter a number between 1 to 10" />
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    <Button
+        android:id="@+id/guessAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guessagain"
+        android:visibility="invisible"
+        android:enabled="true" />
+    <ImageView
+        android:src="@android:drawable/presence_audio_online"
+        android:layout_width="match_parent"
+        android:layout_height="121.0dp"
+        android:id="@+id/imageView1" />
+</LinearLayout>

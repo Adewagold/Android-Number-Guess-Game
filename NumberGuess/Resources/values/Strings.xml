@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Guess Now!</string>
+	<string name="app_name">Number Guess</string>
+    <string name="guessagain">Start Again!</string>
+    </resources>
